@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 function Home() {
   const navigate = useNavigate()
   return (
-    <div>Home
+    <div>Home new home is built
 
       {/* <button onClick={()=>navigate('/orders',{replace:true})}>Place order</button> */}
       <button onClick={()=>navigate('/orders',{state:{product:'iphone'}})}>Place order</button>
